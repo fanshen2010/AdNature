@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
+
+<html lang="en">
     <head>
+    	<link rel="shortcut icon" type="image/x-icon" href="style/TransparentMountain.ico" height="5px">
         <link rel="stylesheet" type="text/css" href="/style/css/Searchpage.css">
-         <title>AdNature | Search</title>
-        <link rel="shortcut icon" href="Transparent%20Mountain.ico" />
+        <title>AdNature | Search</title>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         
 <!-- jQuery library -->
@@ -18,11 +18,11 @@
     
     <body class="Layer_1">
           <img src="style/logo.png" class="logo" >
-         
+        
         <div class="lighter">
 <form action="search" method="post">
-    <input type="text" id="tipue_drop_input" name="search" autocomplete="off" class="search">
-
+    <input type="text" id="tipue_drop_input" autocomplete="off" class="search">
+  	
 </form>
 <div id="tipue_drop_content"></div>
         </div>
@@ -196,7 +196,6 @@
               <p>Fruit Picking</p>
               <p>Picnic</p>
           </div>
-        
            <div class="modal-footer">
            <button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
         </div>
